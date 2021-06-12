@@ -1,0 +1,32 @@
+.main-text{
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    position: absolute;
+}
+.header{
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3%;
+}
+.body{
+    width: 50%;
+    margin: 0 auto;
+}
+.header-left img{
+    float: left;
+} 
+.social{
+    margin: auto 0;
+}
+.info{
+ margin: 0;
+}
+.left-float{
+    position: absolute;
+    top: 40%;
+    left: 10%;
+}
+

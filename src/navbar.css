@@ -1,0 +1,55 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 5% 0 2%;
+    
+  }
+  .menu_bar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .menu_item {
+    color: black;
+    text-decoration: none;
+    font: 20px;
+  }
+  .hidden {
+    display: none;
+  }
+  .card a {
+    color: black;
+    text-decoration: none;
+    font: 20px;
+  }
+  .rotate {
+    transform: rotate(90deg);
+    display: inline;
+  }
+  .head {
+    text-align: center;
+    font-size: 50px;
+    margin-left: 25px;
+  }
+  .icon {
+    float: right;
+    display: none;
+    font-size: 50px;
+  }
+.under-nav-hr{
+  border: 2px solid lightgrey;
+}
+  @media screen and (max-width: 600px) {
+    .icon {
+      display: inline;
+    }
+    .container {
+      display: none;
+    }
+    .head {
+      text-align: left;
+    }
+  }
+  
