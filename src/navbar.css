@@ -2,8 +2,11 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin: 5% 0 2%;
+    margin: 3% auto;
     
+  }
+  .card,.card1{
+    border: none;
   }
   .menu_bar {
     display: flex;
@@ -25,7 +28,6 @@
     font: 20px;
   }
   .rotate {
-    transform: rotate(90deg);
     display: inline;
   }
   .head {
