@@ -3,6 +3,7 @@ import "./Home.css"
 const Home = () => {
     return (
       <>
+      <div id="slider">
         <div className="container-grid">     
         <div className="item1">
                  <h1>About the image</h1>
@@ -16,6 +17,7 @@ const Home = () => {
                 <h1>About the image</h1>
                 <p>Time 20:30pm and sunday</p> 
               </div>             
+        </div>
         </div>
         <h1 className="latest-h1">The Latest</h1>
         <hr className="latest-hr" />        
